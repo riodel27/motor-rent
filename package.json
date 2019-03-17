@@ -2,7 +2,7 @@
   "name": "tagbilaran-city-motor-bike-rental",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://TagbilaranCityBoholMotorRental.github.io/motor-rent/",
+  "homepage": "https://riodel27.github.io/motor-rent/",
   "dependencies": {
     "gh-pages": "^2.0.1",
     "node-sass": "^4.11.0",
