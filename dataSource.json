@@ -1,0 +1,18 @@
+    {
+    "bikes":[
+        {
+            "name":"Yamaha Mio Aerox 155cc",
+            "price":500,
+            "extraPricePerHour":100,
+            "images":[],
+            "description":"Fully automatic transmission,Wide bench seat with 25 liters storage space,LED light system,Comes with Electric Socket so you can charge your devices even when you ride"
+        },
+        {
+            "name":"Honda Beat f1 110cc",
+            "price":500,
+            "extraPricePerHour":100,
+            "images":[],
+            "description":"Fully Automatic transmission with fuel injection engine.,Soft suspension very smooth ride"
+        }
+    ]
+}

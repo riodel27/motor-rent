@@ -1,0 +1,118 @@
+.bg-rides{
+    color: #444444;
+    margin:0;
+    padding-top: 60px;
+    p{
+        color:#707070;
+        font-size: 14px;
+        font-weight: bold;
+        margin: 0;
+        letter-spacing: 1px;
+    }
+    h1{
+        margin: 0;
+        font-size: 2.5em;
+    }
+    .bike{
+        margin:0;
+        padding: 90px 0 0 0;
+        .bike-content{
+            padding: 0 30px;
+            h2{
+                color: #444444;
+                font-size: 32px;
+                padding: 0;
+                margin: 0;
+            }
+            p{
+                text-align: left;
+            }
+            .mainPrice{
+                margin-right: 12px;
+            }
+            span{
+                color:#888888;
+            }
+            hr{
+                border: 0.5px solid #e3e3e3;
+                margin: 20px 0;
+            }
+
+            ul{
+                text-align: left;
+                padding: 0 0 0 20px;
+                color: #a7a7a7;
+                margin-bottom: 60px;
+            }
+        }
+        .gallery{
+            position: relative;
+            button{
+                background-color: #444444;
+                padding: 15px 30px;
+                // margin-top: 40px;
+                border-style: none;
+                border-radius: 3px;
+                color:#ffffff;
+                font-weight: bold;
+                position: absolute;
+                right: 25%;
+                top:-10%;
+            }
+            .imageOne{
+                height: 200px;
+                background-color: #aaaaaa;
+            }
+            .sub-gallery{
+                display: flex;
+                .imageTwo{
+                    background-color: #cccccc;
+                }
+                .imageThree{
+                    background-color: #888888;
+                }
+                .imageFour{
+                    background-color: #666666;
+                }
+                .item{
+                    flex-grow: 1;
+                    width: 100px;  
+                    height: 60px; 
+                    margin: auto;  
+                }
+            }
+        }
+        @media screen and (min-width: 640px){
+              display: flex;
+              flex-direction: row-reverse;
+            .bike-content{
+                width: 600px;
+            }
+              .gallery{
+                  button{
+                    //   display: none;
+                    right: -32%;
+                    top:60%;
+                    cursor: pointer;
+                  }
+                  .imageOne{
+                      width: 600px;
+                      height: 380px;
+                  }
+                  .sub-gallery{
+                      .item{
+                          height: 120px;
+                      }
+                  }
+              }
+        }
+    }
+    @media screen and(min-width:640px){
+        padding: 80px 180px;
+    }
+}
+
+
+
+
+
